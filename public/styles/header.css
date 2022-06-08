@@ -1,0 +1,31 @@
+
+nav{
+    background-color: rgb(46, 125, 156);
+    height: 4rem;
+    position: relative;
+}
+
+nav p{
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0 1rem 10rem;
+}
+
+nav form{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin: 1rem 10rem 1rem 0;
+}
+
+input{
+    height: 1.75rem;
+    width: 15rem;
+}
+
+input:focus{
+    font-size: 1.2rem;
+    border-color: white;
+}
