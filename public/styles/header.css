@@ -1,7 +1,21 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(223, 222, 222);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 2190px;
+    margin: auto;
+}
 
 nav{
     background-color: rgb(46, 125, 156);
-    height: 4rem;
+    height: 5rem;
     position: relative;
 }
 
@@ -9,23 +23,26 @@ nav p{
     display: inline-block;
     color: white;
     font-size: 1.5rem;
-    font-weight: 600;
-    margin: 1rem 0 1rem 10rem;
+    font-weight: 400;
+    margin: 1.5rem 0 1.5rem 8rem;
 }
 
 nav form{
     display: inline-block;
     position: absolute;
     right: 0;
-    margin: 1rem 10rem 1rem 0;
+    margin: 1.5rem 7rem 1.5rem 0;
 }
 
-input{
-    height: 1.75rem;
+nav form input{
+    height: 2.2rem;
     width: 15rem;
+    font-size: 1.2rem;
 }
 
-input:focus{
-    font-size: 1.2rem;
-    border-color: white;
+nav form svg{
+    position: relative;
+    left: -13%;
+    top: 0;
 }
+
